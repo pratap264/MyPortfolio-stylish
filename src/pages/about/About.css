@@ -1,0 +1,56 @@
+.main{
+    height: 100vh;
+    background-color: #1d1d1d;
+    color: #fff;
+    font-family: 'League Script', cursive;
+}
+.test{
+    padding-top: 30px;
+    background-color: #1d1d1d;
+    color: #515152;
+    font-size: 30px;
+    font-family: 'La Belle Aurore', cursive;
+    /* font-family: 'League Script', cursive; */
+}
+.title{
+    background-color: #1d1d1d;
+    color:white;
+    font-size: 50px;
+    font-weight: 9400;
+    font-family: font-file-82132;
+    font-size: 5.3rem;
+    line-height: 4.5rem;
+    font-stretch: wider;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+.role{
+    color:gray;
+    font-size:22px;
+    font-family: "Open Sans",sans-serif;
+}
+.btn{
+    text-align: center;
+    color: #08fdd8;
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-family: "Open Sans",sans-serif;
+    cursor: pointer;
+    
+    margin-left: 185px;
+    background-color: #1d1d1d;
+    height: 100%;
+    border: 1px solid #08fdd8;
+    padding: 12px 25px;
+    /* display: inline-block; */
+    transition: all .6s ease-out;
+    display: block;
+    background: linear-gradient(to right, #08fdd8 50%, #1d1d1d 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+  
+  .btn:hover {
+    background-position: left bottom;
+    color: #1d1d1d;
+  }
