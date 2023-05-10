@@ -81,3 +81,45 @@
     padding-left: 13rem;
     margin-bottom: 1.6rem;
 }
+
+
+/* Skills css Starts from here*/
+.skills{
+    display: flex;
+    background-color:  #1d1d1d;
+    padding: 5rem 3rem;
+}
+
+.chart {
+    margin-bottom: 2rem;
+}
+.chart footer div {
+    width: 0;
+    height: 100%;
+    background-color: #08fdd8;
+    -webkit-transition: width 1.3s ease-out;
+    -o-transition: width 1.3s ease-out;
+    transition: width 1.3s ease-out;
+}
+.chart footer {
+    background-color: #373737;
+    height: 2px;
+}
+.skills-details{
+   color: #fff;
+   padding-right: 5rem;
+   padding-top: 12rem;
+   width: 50%;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   
+}
+element.style {
+    background: rgb(255, 34, 83);
+    width: 75%;
+}
