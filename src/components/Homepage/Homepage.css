@@ -1,125 +1,302 @@
-.landing-page{
-    height: 100vh;
-    background-color: #1d1d1d;
-    color: #fff;
-    font-family: 'League Script', cursive;
+.landing-page {
+  height: 100vh;
+  background-color: #1d1d1d;
+  color: #fff;
+  font-family: "League Script", cursive;
 }
-.test{
-    padding-top: 30px;
-    background-color: #1d1d1d;
-    color: #515152;
-    font-size: 30px;
-    font-family: 'La Belle Aurore', cursive;
-    /* font-family: 'League Script', cursive; */
+.test {
+  padding-top: 30px;
+  background-color: #1d1d1d;
+  color: #515152;
+  font-size: 30px;
+  font-family: "La Belle Aurore", cursive;
+  /* font-family: 'League Script', cursive; */
 }
-.title{
-    background-color: #1d1d1d;
-    color:white;
-    font-size: 50px;
-    font-weight: 9400;
-    font-family: font-file-82132;
-    font-size: 5.3rem;
-    line-height: 4.5rem;
-    font-stretch: wider;
-    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+.title {
+  background-color: #1d1d1d;
+  color: white;
+  font-size: 50px;
+  font-weight: 9400;
+  font-family: font-file-82132;
+  font-size: 5.3rem;
+  line-height: 4.5rem;
+  font-stretch: wider;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
 }
-.role{
-    color:gray;
-    font-size:22px;
-    font-family: "Open Sans",sans-serif;
+.role {
+  color: gray;
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
 }
-.btn{
+.btn {
+  text-align: center;
+  color: #08fdd8;
+  font-size: 22px;
+  letter-spacing: 4px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+
+  margin-left: 185px;
+  background-color: #1d1d1d;
+  height: 100%;
+  border: 1px solid #08fdd8;
+  padding: 12px 25px;
+  /* display: inline-block; */
+  transition: all 0.6s ease-out;
+  display: block;
+  background: linear-gradient(to right, #08fdd8 50%, #1d1d1d 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+
+.btn:hover {
+  background-position: left bottom;
+  color: #1d1d1d;
+}
+
+/* About page css starts */
+
+.about-title {
+  font-size: 4rem;
+  line-height: 4rem;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  font-family: font-file-82132;
+  color: #08fdd8;
+  font-weight: 700;
+  margin-top: 0;
+  position: relative;
+  margin-bottom: 40px;
+  left: -10px;
+}
+.about-text {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  background: #1d1d1d;
+  display: block;
+  min-width: 320px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  padding-left: 13rem;
+  margin-bottom: 1.6rem;
+}
+
+/* Skills css Starts from here*/
+
+.skills {
+  display: flex;
+  background-color: #1d1d1d;
+  padding: 5rem 3rem;
+}
+
+.chart {
+  margin-bottom: 2rem;
+}
+.chart footer div {
+  width: 0;
+  height: 100%;
+  background-color: #08fdd8;
+  -webkit-transition: width 1.3s ease-out;
+  -o-transition: width 1.3s ease-out;
+  transition: width 1.3s ease-out;
+}
+.chart footer {
+  background-color: #373737;
+  height: 2px;
+}
+.skills-details {
+  color: #fff;
+  padding-right: 5rem;
+  padding-top: 12rem;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+element.style {
+  background: rgb(255, 34, 83);
+  width: 75%;
+}
+
+/* Work css Starts from here*/
+
+.work-data {
+  background-color: #1d1d1d;
+  padding-left: 2%;
+}
+.work-row {
+  display: flex;
+}
+.work-item {
+  width: 24%;
+  height: 15rem;
+  background-color: #1d1d1d;
+  border: #08fdd8 solid 2px;
+  text-align: center;
+}
+
+/* experience css Starts from here*/
+.experience {
+  display: flex;
+  background-color: #1d1d1d;
+  padding: 5rem 3rem;
+}
+
+.chart {
+  margin-bottom: 2rem;
+}
+.chart footer div {
+  width: 0;
+  height: 100%;
+  background-color: #08fdd8;
+  -webkit-transition: width 1.3s ease-out;
+  -o-transition: width 1.3s ease-out;
+  transition: width 1.3s ease-out;
+}
+.chart footer {
+  background-color: #373737;
+  height: 2px;
+}
+.skills-details {
+  color: #fff;
+  padding-right: 5rem;
+  padding-top: 12rem;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+element.style {
+  background: rgb(255, 34, 83);
+  width: 75%;
+}
+
+/* contact css Starts from here*/
+
+.contact {
+  display: flex;
+}
+.box1 {
+  width: 50%;
+}
+.contact-form {
+  width: 100%;
+  padding-top: 1rem;
+  display: block;
+  position: relative;
+  background: #1d1d1d;
+  margin: auto;
+}
+#cform {
+  width: 50%;
+  margin: auto;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  width: 100%;
+  border: 0;
+  background: #2b2b2b;
+  height: 50px;
+  font-size: 16px;
+  color: #8d8d8d;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.contact-form textarea {
+  width: 100%;
+  border: 0;
+  background: #2b2b2b;
+  height: 50px;
+  font-size: 16px;
+  color: #8d8d8d;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 150px;
+}
+.flat-button {
+  color: #08fdd8;
+  font-size: 14px;
+  letter-spacing: 4px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  max-width: 220px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  text-align: center;
+}
+a {
+  color: #08fdd8;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+.contact-form ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 10px;
+  /* opacity: 0; */
+  overflow: hidden;
+  display: block;
+  clear: both;
+  position: relative;
+}
+
+.contact-form ul {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.half-input {
+  display: flex;
+}
+.btn-long{
+    padding-top: 5rem;
     text-align: center;
     color: #08fdd8;
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 4px;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     cursor: pointer;
-    
+  
     margin-left: 185px;
     background-color: #1d1d1d;
     height: 100%;
     border: 1px solid #08fdd8;
-    padding: 12px 25px;
+    padding: 12px 55px;
     /* display: inline-block; */
-    transition: all .6s ease-out;
+    transition: all 0.6s ease-out;
     display: block;
     background: linear-gradient(to right, #08fdd8 50%, #1d1d1d 50%);
     background-size: 200% 100%;
     background-position: right bottom;
-    transition: all .5s ease-out;
-}
+    transition: all 0.5s ease-out;
+  }
   
-  .btn:hover {
+  .btn-long:hover {
     background-position: left bottom;
     color: #1d1d1d;
   }
-
-
-  /* About page css starts */
-
-  .about-title{
-    font-size: 4.0rem;
-    line-height: 4.0rem;
-    text-shadow: 0px 1px, 1px 0px, 1px 1px; 
-    font-family: font-file-82132;
-    color: #08fdd8;
-    font-weight: 700;
-    margin-top: 0;
-    position: relative;
-    margin-bottom: 40px;
-    left: -10px;
-}
-.about-text{
-    font-size: 1.3rem;
-    line-height: 1.5;
-    background: #1d1d1d;
-    display: block;
-    min-width: 320px;
-    font-family: "Open Sans",sans-serif;
-    color: #fff;
-    padding-left: 13rem;
-    margin-bottom: 1.6rem;
-}
-
-
-/* Skills css Starts from here*/
-.skills{
-    display: flex;
-    background-color:  #1d1d1d;
-    padding: 5rem 3rem;
-}
-
-.chart {
-    margin-bottom: 2rem;
-}
-.chart footer div {
-    width: 0;
-    height: 100%;
-    background-color: #08fdd8;
-    -webkit-transition: width 1.3s ease-out;
-    -o-transition: width 1.3s ease-out;
-    transition: width 1.3s ease-out;
-}
-.chart footer {
-    background-color: #373737;
-    height: 2px;
-}
-.skills-details{
-   color: #fff;
-   padding-right: 5rem;
-   padding-top: 12rem;
-   width: 50%;
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-orient: vertical;
-   -webkit-box-direction: normal;
-   -ms-flex-direction: column;
-   flex-direction: column;
-   
-}
-element.style {
-    background: rgb(255, 34, 83);
-    width: 75%;
-}
