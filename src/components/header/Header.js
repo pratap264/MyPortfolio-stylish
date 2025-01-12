@@ -4,7 +4,11 @@ import "./Header.css";
 const Header = () => {
   return (
     <nav class="navbar">
-      <div class="logo">Pratapsingha Garud<p style={{marginLeft:"90px",fontSize:"13px"}}>web developer</p></div>
+      <div class="logo"><div className="alpha-parent-header" >
+              <div className="alpha-header" id="alpha-header-1">P</div>
+              <div className="alpha-header" id="alpha-header-2">P</div>
+            </div>
+            {"  "}   <p style={{marginLeft:"47px",paddingTop:"13px"}}> ratapsingh Garud</p> <p style={{marginLeft:"90px",fontSize:"13px",marginBottom:"3px"}}>web developer</p></div>
       <div>
         <input type="checkbox" id="checkbox_toggle" />
         <label for="checkbox_toggle" class="hamburger">
@@ -28,7 +32,7 @@ const Header = () => {
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#experience">
               Experience
             </a>
           </li>
