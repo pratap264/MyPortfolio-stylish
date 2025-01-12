@@ -5,7 +5,7 @@ import '@fontsource/la-belle-aurore'; // Defaults to 400 weight
 
 
 // Importing TagCloud package
-import TagCloud from 'tagcloud';
+import TagCloud from 'TagCloud';
 
 
 const TextShpere = () => {
