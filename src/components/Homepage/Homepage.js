@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from "react";
 import TextShpere from "../../pages/skills/TextShpere";
 import "./Homepage.css";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import '@fontsource/la-belle-aurore'; // Defaults to 400 weight
+
+
 
 const Homepage = () => {
 
