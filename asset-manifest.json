@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio-stylish/static/css/main.639c7518.css",
+    "main.js": "/MyPortfolio-stylish/static/js/main.4d5240c3.js",
+    "static/js/787.1f11dfe9.chunk.js": "/MyPortfolio-stylish/static/js/787.1f11dfe9.chunk.js",
+    "static/media/Adrian-Flux-Motorsport-1.jpg": "/MyPortfolio-stylish/static/media/Adrian-Flux-Motorsport-1.21f92509c53f14c830cd.jpg",
+    "static/media/2-scaled.jpg": "/MyPortfolio-stylish/static/media/2-scaled.1d2c1bc15a044dc9ef80.jpg",
+    "static/media/Pratap2.jpg": "/MyPortfolio-stylish/static/media/Pratap2.f642cb45d1f9d2258063.jpg",
+    "static/media/Bez-nazwy-3.jpg": "/MyPortfolio-stylish/static/media/Bez-nazwy-3.11ab60cc9e7c9ae7174a.jpg",
+    "static/media/3.jpg": "/MyPortfolio-stylish/static/media/3.9f3ab5ec11e413f4efad.jpg",
+    "static/media/unnamed.jpg": "/MyPortfolio-stylish/static/media/unnamed.a84fd4342d4325bb941d.jpg",
+    "static/media/ttelo.png": "/MyPortfolio-stylish/static/media/ttelo.4c71edfe50c5fae16bba.png",
+    "static/media/https-club-silversurfers-com-wp-content-themes-club-2B-img-logo-svg.png": "/MyPortfolio-stylish/static/media/https-club-silversurfers-com-wp-content-themes-club-2B-img-logo-svg.331bbbaf45c6be7588cb.png",
+    "static/media/Adrian-Flux-Motorsport-e1546707189414.jpg": "/MyPortfolio-stylish/static/media/Adrian-Flux-Motorsport-e1546707189414.f7d7fafb4f747897e924.jpg",
+    "index.html": "/MyPortfolio-stylish/index.html",
+    "main.639c7518.css.map": "/MyPortfolio-stylish/static/css/main.639c7518.css.map",
+    "main.4d5240c3.js.map": "/MyPortfolio-stylish/static/js/main.4d5240c3.js.map",
+    "787.1f11dfe9.chunk.js.map": "/MyPortfolio-stylish/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.639c7518.css",
+    "static/js/main.4d5240c3.js"
+  ]
+}
